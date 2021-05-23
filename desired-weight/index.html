@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desired Weight Calculator</title>
+</head>
+<body>
+    <h1>Desired Weight Calculator</h1>
+    
+    <section >
+        <label for="initial-weight">
+            Initial weight:
+        </label>
+        <div>
+            <input id="initial-weight" type="range" step="1" min="30" max="130">
+            <span id="initial-weight-selected">103 kg</span>
+        </div>
+    </section>
+    <section >
+        <label for="desired-weight">
+            Desired weight:
+        </label>
+        <div>
+            <input id="desired-weight" type="range" step="1" min="30" max="130">
+            <span id="desired-weight-selected">103 kg</span>
+        </div>
+    </section>
+    <section >
+        <label for="height">
+            Height:
+        </label>
+        <div>
+            <input id="height" type="range" step="1" min="30" max="130">
+            <span id="height-selected">172 cm</span>
+        </div>
+    </section>
+    <section >
+        <label for="start-date">
+            Start date:
+        </label>
+        <div>
+            <input id="start-date" type="date" step="1" min="2021-05-23" value="2021-05-23">
+        </div>
+    </section>
+    <section >
+        <label for="end-date">
+            End date:
+        </label>
+        <div>
+            <input id="end-date" type="date" step="1" min="2021-05-24" value="2021-05-24">
+        </div>
+    </section>
+    <section >
+        <button id="calculate" >Calculate</button>
+    </section>
+</body>
+</html>
